@@ -17,12 +17,12 @@ public class CreditCard {
     public void calc(double n,int whatDo) {
         switch (whatDo) {
             case 1:
-                double plus = this.money + n;
-                System.out.println("Номер счета: "+this.nomerScheta +"  Сумма на счету: "+plus);
+                this.money += n;
+                System.out.println("Номер счета: "+this.nomerScheta +"  Сумма на счету: "+this.money); //исправить
                 break;
             case 2:
-                double minus = this.money - n;
-                System.out.println("Номер счета: "+this.nomerScheta +"  Сумма на счету: "+minus);
+                this.money -= n;
+                System.out.println("Номер счета: "+this.nomerScheta +"  Сумма на счету: "+this.money); //исправить
                 break;
         }
     }

@@ -23,9 +23,12 @@ public class Main {
 
         System.out.println("\nПосле:");
 
-        creditCard1.calc(2500.90,1);
+        creditCard1.calc(1000.90,1);
+        creditCard1.calc(1000.90,1);
         creditCard2.calc(4000,1);
-        creditCard3.calc(500.25,2);
+        creditCard3.calc(1795,2);
+        creditCard3.calc(500,2);
+
     }
 
     private static void task2() {
